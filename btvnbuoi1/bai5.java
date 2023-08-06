@@ -34,7 +34,7 @@ public class bai5 {
                 if( b % (i * 2) < b &&   c % (i * 4) < c )
                 demchanh++;
             }
-            System.out.println("Tong so qua toi da " + demchanh + demchanh * 2+  demchanh * 4);
+            System.out.println("Tong so qua toi da " + (demchanh + demchanh * 2+  demchanh * 4));
             System.out.println("Chanh: " + demchanh);
              System.out.println("tao: " + demchanh * 2 );
               System.out.println("le: " + demchanh * 4);
